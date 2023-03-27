@@ -1,0 +1,31 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+header{
+display: flex;
+height: 60px;
+max-width: 100%;
+margin: 0 auto;}
+
+.nav-left{
+    display: flex;
+    height: 60px;
+    width: 500px;
+    
+}
+
+.logo-dropbox{
+    align-content: center;
+   padding:6%;
+}
+
+/* Debug */
+header{background-color: aqua;
+}
+
+.scritta-nav{
+    padding: 0 10px;
+    align-content:center;
+}
