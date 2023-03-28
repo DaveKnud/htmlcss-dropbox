@@ -9,7 +9,7 @@ font-family: 'Lato', sans-serif;
 header{
 display: flex;
 height: 60px;
-max-width: 100%;
+width: 100%;
 margin: 0 auto;
 justify-content: space-between;}
 
@@ -18,7 +18,6 @@ justify-content: space-between;}
     height: 60px;
     align-items:center;
     list-style: none;
-    
 }
 
 
@@ -31,12 +30,11 @@ justify-content: space-between;}
     padding: 10px 10px;
     text-decoration: none;
     color:black;
-  
-  }
+}
 
   .button.blue{
     background-color:#0061FF;
-    padding: 6%;
+    padding: 5%;
     margin-right: 20px;
     color: white;
     border-bottom-style: none
@@ -50,12 +48,12 @@ justify-content: space-between;}
     height: 630px;
     background-color:#B4D0E7;
     margin-bottom: 200px;
-  }
+}
 
 .row1-jumbotron,.row2-jumbotron{
     width: 65%;
     margin: 0 auto;
-  }
+}
 
 .row2-jumbotron{display: flex;}
 
@@ -63,7 +61,6 @@ justify-content: space-between;}
   display: inline-block;
   position: relative;
   width: 30%;
-  
 }
 
 .col1-jumbotron div{
@@ -92,6 +89,73 @@ justify-content: space-between;}
 .fa-solid.fa-arrow-down{
   font-size: 40px;
 }
+
+/* main */
+
+
+.container-abbonamenti{
+  width:60%;
+  margin: 0 auto;
+  height: 1500px;
+
+
+}
+
+.row-abbonamenti{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
+  justify-content: space-between;
+  font-size: small;
+}
+
+
+
+.col-abbonamenti{
+  width: 250px;
+  height: 850px;
+  border:1px solid silver;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.col-abbonamenti ul li{
+  padding: 5%;
+}
+
+
+.container-abbonamenti h1{
+  margin-bottom: 5%;
+}
+.container-abbonamenti span{
+  margin-right: 10%;
+}
+
+.filtro{
+text-align: center;
+width: 250px;
+height: 17px;
+border:1px solid silver;
+}
+
+.list-plan hr{
+  width: 40px;
+  color:silver;
+}
+
+.li-grey{
+  color:rgb(128, 128, 128);
+}
+
+.fa-solid.fa-check{
+  color:blue;
+}
+
+
+
 
 
 
@@ -159,4 +223,18 @@ header{background-color: aqua;
 }
 
 
+/* .container-abbonamenti{
+  background-color:bisque;
+
+
+}
+
+.row-abbonamenti{
+  background-color:aquamarine;
+
+}
+
+.col-abbonamenti{
+  background-color:red
+} */
 
