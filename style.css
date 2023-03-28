@@ -230,6 +230,7 @@ padding: 10%;
   background-color: #B4D0E7;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 10%;
 }
 
 .container-business h1{
@@ -272,7 +273,6 @@ footer{
   justify-content: space-between;
   padding-top: 5%;
   position: relative;
-  margin-bottom: 15%;
 }
 
 
