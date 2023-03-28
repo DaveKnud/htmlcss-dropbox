@@ -1,7 +1,12 @@
+/* general rules */
 *{padding: 0;
 margin: 0;
 box-sizing: border-box;
 font-family: 'Lato', sans-serif;
+}
+
+ul{
+  list-style: none;
 }
 
 /* Header */
@@ -37,7 +42,9 @@ justify-content: space-between;}
     padding: 5%;
     margin-right: 20px;
     color: white;
-    border-bottom-style: none
+    border-bottom-style:groove;
+    border-color: #0061FF;
+
     
   }
 
@@ -96,7 +103,7 @@ justify-content: space-between;}
 .container-abbonamenti{
   width:60%;
   margin: 0 auto;
-  height: 1500px;
+  height: 1100px;
 
 
 }
@@ -154,6 +161,90 @@ border:1px solid silver;
   color:blue;
 }
 
+/* Block contact */
+
+.container-contact{
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  height: 250px;
+  border: 1px solid silver;
+  position: relative;
+  margin-bottom: 6%;
+}
+
+.filter-contact{
+  text-align: center;
+  border:1px solid silver;
+  padding: 1%;
+}
+
+.row-contact{
+ font-size: small;
+}
+
+.col-contact ul li{
+  padding: 2%;
+}
+
+.button.blue.contact{
+  padding: 1%;
+  position: absolute;
+ top:20%;
+ right:5%
+}
+
+
+/* Container partner */
+.row-partner{
+  width: 60%;
+  height: 550px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.col-partner{
+  width: 50%;
+  height: 520px;
+}
+.col-partner div img{
+  max-width: 100%;
+  padding: 3%;
+}
+
+.col-partner.text{
+padding: 10%;
+}
+
+.button.blue.partner{
+  background-color:white;
+  color:black;
+  border-color:black;
+}
+
+/* Dropbox business */
+.row-business{
+  width: 60%;
+  margin: 0 auto;
+  height: 800px;
+  background-color: #B4D0E7;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-business h1{
+  width: 60%;
+  margin: auto;
+}
+
+
+
+.col-business{
+  height: 400px;
+  width:calc(100% / 3) ;
+  background-color:aquamarine;
+  border:1px black solid;
+}
 
 
 
@@ -181,11 +272,10 @@ footer{
   justify-content: space-between;
   padding-top: 5%;
   position: relative;
+  margin-bottom: 15%;
 }
 
-ul{
-  list-style: none;
-}
+
 
 .col-footer{
   width:100px;
@@ -197,7 +287,7 @@ ul{
   color:silver;
  }
 
- .col-footer ul li {
+ .col-footer ul li,.col-partner.text ul li{
   padding: 3%;
  }
 
