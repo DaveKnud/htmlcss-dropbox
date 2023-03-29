@@ -16,6 +16,9 @@ display: flex;
 height: 60px;
 width: 100%;
 margin: 0 auto;
+position: fixed;
+background-color:white;
+z-index: 60;
 justify-content: space-between;}
 
 .nav-left ul, .nav-right ul{
@@ -54,6 +57,7 @@ justify-content: space-between;}
     margin: 0 auto;
     height: 630px;
     background-color:#B4D0E7;
+    padding-top: 60px;
     margin-bottom: 200px;
 }
 
@@ -358,6 +362,9 @@ height: 1500px;
   color:#61082B;
 }
 
+.button.blue.partner.prova{
+  padding: 1%;
+  border-style: none;}
 
 
 /* footer */
@@ -415,10 +422,7 @@ header{background-color: aqua;
   background-color: blue;
 }
 
-.button.blue.partner.prova{
-  padding: 1%;
-  border-style: none;
-} */
+
 
 
 /* .container-abbonamenti{
