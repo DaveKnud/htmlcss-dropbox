@@ -54,16 +54,15 @@ font-size: small;}
     border-color: #0061FF;
   }
 
-  .button.blue:hover{
+  .button.blue:hover,.fa-solid.fa-arrow-down{
     opacity: 0.75;
-  
   }
 
   /* jumbotron */
 .jumbotron{
     width: 100%;
     margin: 0 auto;
-    height: 700px;
+    height: 690px;
     background-color:#B4D0E7;
     padding-top: 60px;
     margin-bottom: 200px;
@@ -105,9 +104,15 @@ font-size: small;}
   width: 100%;
 }
 
-.fa-solid.fa-arrow-down{
+
+.fa-solid.fa-arrow-down /* Arrow */{
   font-size: 40px;
 }
+
+.fa-solid.fa-arrow-down:hover /* Arrow */{
+cursor: pointer;
+}
+
 
 /* main */
 
@@ -117,7 +122,7 @@ font-size: small;}
 .container-abbonamenti{
   width:60%;
   margin: 0 auto;
-  height: 1200px;
+  padding-bottom: 2%;
 
 }
 
@@ -130,21 +135,17 @@ font-size: small;}
   font-size: small;
 }
 
-.row-abbonamenti::after{
-  content:"";
-  display: table;
-  clear:both;
-}
-
 
 .col-abbonamenti{
   width: 250px;
   /* height: 1000px; */
-  border:1px solid silver;
+  
   text-align: left;
   padding-left: 10%;
   padding-right: 5%;
   padding-top: 5%;
+  margin-top: 5%;
+  border-top:1px solid silver;
 }
 
 .col-abbonamenti ul li,.col-business ul li{
@@ -161,15 +162,17 @@ font-size: small;}
 
 .filtro{
 text-align: center;
-width: 250px;
-height: 17px;
+width: 260px;
 border:1px solid silver;
+padding-top: 10px;
 }
 
 .list-plan hr{
   width: 40px;
   color:silver;
 }
+
+.user {text-indent: -7%;}
 
 .li-grey{
   color:rgb(128, 128, 128);
@@ -200,7 +203,7 @@ border:1px solid silver;
  font-size: small;
 }
 
-.col-contact ul li,{
+.col-contact ul li{
   padding: 2%;
 }
 
