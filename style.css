@@ -111,11 +111,13 @@ font-size: small;}
 
 /* main */
 
+            /* abbonamenti */
+
 
 .container-abbonamenti{
   width:60%;
   margin: 0 auto;
-  height: 1100px;
+  height: 1200px;
 
 
 }
@@ -129,11 +131,16 @@ font-size: small;}
   font-size: small;
 }
 
+.row-abbonamenti::after{
+  content:"";
+  display: table;
+  clear:both;
+}
 
 
 .col-abbonamenti{
   width: 250px;
-  height: 850px;
+  /* height: 1000px; */
   border:1px solid silver;
   text-align: left;
   padding-left: 10%;
