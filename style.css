@@ -19,7 +19,8 @@ margin: 0 auto;
 position: fixed;
 background-color:white;
 z-index: 60;
-justify-content: space-between;}
+justify-content: space-between;
+font-size: small;}
 
 .nav-left ul, .nav-right ul{
     display: flex;
@@ -34,10 +35,14 @@ justify-content: space-between;}
   width: 100px;
 }
 
-.logo-dropbox,.scritta-nav a{
-    padding: 10px 10px;
+.scritta-nav a{
+  padding: 10px 10px;
+}
+
+.logo-dropbox,a{
     text-decoration: none;
     color:black;
+    font-size: small;
 }
 
   .button.blue{
@@ -47,8 +52,11 @@ justify-content: space-between;}
     color: white;
     border-bottom-style:groove;
     border-color: #0061FF;
+  }
 
-    
+  .button.blue:hover{
+    opacity: 0.75;
+  
   }
 
   /* jumbotron */
@@ -198,6 +206,8 @@ border:1px solid silver;
 }
 
 
+
+
 /* Container partner */
 .row-partner{
   width: 60%;
@@ -299,13 +309,22 @@ height: 1500px;
 .row-aziende.center{
   width: calc(100%/3);
   height: 500px;
-  background-color: beige;
+  background-color: #F5F5F5;
+  overflow: auto;
 }
 
-.col-aziende.center{
+
+
+.col-center{
   width: 100%;
   height: 500px;
 }
+
+.col-aziende:hover{
+  border: 10px solid rgba(255, 255, 255, .5);
+}
+
+
 /* color left */
 .col-aziende.designit{
   background-color:#A2D39B;
@@ -440,6 +459,10 @@ footer{
   top: 70%;
   color:silver;
   font-size:13px;
+ }
+
+ .col-footer ul li a {
+  color:white;
  }
 
 
